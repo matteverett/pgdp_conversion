@@ -9,3 +9,4 @@ guiguts.log
 /ebooks/
 /.vscode/
 .DS_Store
+!*_comments.html
