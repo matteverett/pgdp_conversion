@@ -81,7 +81,7 @@ Copyright, 1926,
 Set up and electrotyped.
 
 Published November, 1926.
-Reprinted, April, 1927[** . ?]
+Reprinted, April, 1927.
 September, 1927.
 
 
@@ -257,7 +257,7 @@ CONTENTS
 /*
 CHAPTER      PAGE
 
-I[** . ?] <sc>Introductory: A New Religion</sc>      15
+I. <sc>Introductory: A New Religion</sc>      15
 
 II. <sc>The Obvious Blunders</sc>      27
 
@@ -463,7 +463,7 @@ I am not going to talk about numbers and statistics,
 though I may say something about them
 later. The first fact to realise is a difference of
 substance which falsifies all the difference of size.
-The great majority of Protestant bodies to-*day[** to-day: archaic spelling of today],
+The great majority of Protestant bodies to-*day,
 whether they are strong or weak, are not strengthened
 in this particular fashion; by the actual attraction
 of their new followers to their old doctrines.
@@ -1777,7 +1777,7 @@ Church out, but rather of the Church finding him
 out.
 
 This note on the stages of conversion is necessarily
-very negative and inadequate[**.] There is in
+very negative and inadequate. There is in
 the last second of time or hair's breadth of space,
 before the iron leaps to the magnet, an abyss full
 -----File: 066.png---------------------------------------------------------
@@ -2552,8 +2552,8 @@ even the enjoyment of human nature. These are
 excellent things and this is an excellent liberty; and
 yet it has its limitations.
 
-[** " added by hand?  P2]We do not really want a religion that is right
-where we are right.[** " added by hand?  P2]What we want is a religion
+We do not really want a religion that is right
+where we are right. What we want is a religion
 that is right where we are wrong. In these current
 fashions it is not really a question of the religion
 allowing us liberty; but (at the best) of the liberty
@@ -2599,7 +2599,7 @@ it but could not believe it. It may seem a paradox
 to say that the truth teaches us more by the words
 we reject than by the words we receive. Yet the
 paradox is a parable of the simplest sort and familiar
-to us all; any example might be given of it[**.]
+to us all; any example might be given of it.
 If a man tells us to avoid public houses, we think
 him a tiresome though perhaps a well-intentioned
 old party. If he tells us to use public houses, we
