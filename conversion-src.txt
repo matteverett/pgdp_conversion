@@ -1,99 +1,162 @@
+// ppgen source for The Catholic Church and Conversion
+// ppgen ver 3.57e
 
------File: 001.png---------------------------------------------------------
+// Set title
+.dt The Catholic Church and Conversion | Project Gutenberg
 
+// Set line length
+.ll 72
 
+// Define CSS
+.de .tnbox { background-color:#E3E4FA; border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
 
+// Define macros
 
-/*
+// Page numbering
+.pn off // turn off visible page numbers
+
+// Paragraph formatting, indent paragraphs by 0.75 em.
+.pi
+.nr psi 0.75em
+
+// Insert cover image for HTML version
+.if h
+.de #img_ititle { width: 100%; max-width: 30em; }
+.il id=img_ititle fn=i_title.jpg w=100%
+.pb
+.if-
+
+.pn 1
+.bn 001.png
+
+.sp 4
+
+.ce 2
 THE CALVERT SERIES
 <sc>Hilaire Belloc</sc>, <i>General Editor</i>
 
+.sp 4
 
-THE CATHOLIC CHURCH AND
-CONVERSION
-*/
+.ce 2
+<fs=150%>THE CATHOLIC CHURCH AND</fs>
+<fs=150%>CONVERSION</fs>
 
------File: 002.png---------------------------------------------------------
+.sp 4
 
+.pb
 
+.bn 002.png
+.pn +1
 
+.sp 4
 
+.ce 2
 THE CALVERT SERIES
-
 <sc>Hilaire Belloc</sc>, <i>General Editor</i>
 
+.hr 10%
 
-/*
+.in 2
+.ti -2 begin
 <i>Belloc</i>: <sc>The Catholic Church and History</sc>
+
 <i>Chesterton</i>: <sc>The Catholic Church and Conversion</sc>
+
 <i>McNabb</i>: <sc>The Catholic Church and Philosophy</sc>
+
 <i>Ward</i>: <sc>The Catholic Church and the Appeal to Reason</sc>
+
 <i>Windle</i>: <sc>The Catholic Church and Its Reactions With Science</sc>
-*/
+.ti end
+.in
 
------File: 003.png---------------------------------------------------------
+.sp 4
+.pb
+
+.bn 003.png
+.pn +1
+
+.sp 4
 
 
 
+.h1 
+THE CATHOLIC CHURCH|AND CONVERSION
 
-/*
-THE CATHOLIC CHURCH
-AND CONVERSION
+.sp 2
 
-
+.ce 2
 BY
 G. K. CHESTERTON
 
+.sp 2
 
+.ce 3
 New York
 THE MACMILLAN COMPANY
 1927
 
+.ce
 <i>All rights reserved</i>
-*/
 
------File: 004.png---------------------------------------------------------
+.sp 4
+.pb
 
+.bn 004.png
+.pn +1
 
-
+.sp 4
 
 Nihil Obstat
-
-/*
+.in 4
 <sc>Arthur J. Scanlan</sc>, S. T. D.
+.in
+.in 8
 Censor Librorum.
-*/
+.in
+
 
 Imprimatur
-
-/*
+.in 4
 <sc>Patrick Cardinal Hayes</sc>
+.in
+.in 8
 ✠Archbishop, New York.
-*/
+.in
 
 New York, September 16, 1926.
 
+.sp 4
 
-/*
+.ce 2
 Copyright, 1926,
 <sc>By</sc> THE MACMILLAN COMPANY.
 
+.hr 10%
+
+.ce
 Set up and electrotyped.
 
+.ce 3
 Published November, 1926.
 Reprinted, April, 1927.
 September, 1927.
 
+.sp 4
 
+.ce 2
 <i>Printed in the United States of America by</i>
 THE FERRIS PRINTING COMPANY, NEW YORK.
-*/
 
------File: 005.png---------------------------------------------------------
+.sp 4
+.pb
 
+.bn 005.png
+.pn +1
 
+.sp 4
 
-
+.h2
 EDITOR’S NOTE
 
 
@@ -123,7 +186,8 @@ those to whom scepticism so strongly appealed in
 youth to discover, by an experience of men and of
 reality in all its varied forms, that the transcendental
 truths they had been taught in childhood
------File: 006.png---------------------------------------------------------
+.bn 006.png
+.pn +1
 have the highest claims upon their matured
 reason.
 
@@ -158,7 +222,8 @@ and in that proportion do they attempt some
 simple definition of the mind which ultimately
 accepts Catholicism. They will call it a desire for
 security; or an attraction of the senses such as is
------File: 007.png---------------------------------------------------------
+.bn 007.png
+.pn +1
 exercised by music or by verse. Or they will
 ascribe it to that particular sort of weakness (present
 in many minds) whereby they are easily dominated
@@ -191,7 +256,8 @@ You come across an entry into the Catholic Church
 undoubtedly due to the spectacle, admiration and
 imitation of some great character observed. Next
 day you come across an entry into the Catholic
------File: 008.png---------------------------------------------------------
+.bn 008.png
+.pn +1
 Church out of complete loneliness, and you are
 astonished to find the convert still ignorant of the
 great mass of the Catholic effect on character. And
@@ -226,7 +292,8 @@ recognised for a stable part of the world (its outline
 fixed and its quality permanent) by every sort
 of observer, and among these especially by men
 famous for their interest in the debate, for their
------File: 009.png---------------------------------------------------------
+.bn 009.png
+.pn +1
 acuteness of vision and for their earlier doubts, the
 overwhelming presumption is that the thing seen
 is a piece of objective reality. Fifty men on shipboard
@@ -245,12 +312,19 @@ that it was land at all—and it is in this convergence
 of witnesses that we have one out of the innumerable
 proofs upon which the rational basis of
 our religion reposes.—<i>The Editor.</i>
------File: 010.png---------------------------------------------------------
------File: 011.png---------------------------------------------------------
+
+.sp 4
+.pb
+
+.bn 010.png
+.pn +1
+.bn 011.png
+.pn +1
+
+.sp 4
 
 
-
-
+.h2
 CONTENTS
 
 
@@ -270,30 +344,40 @@ V. <sc>The Exception Proves the Rule</sc>      93
 VI. <sc>A Note On Present Prospects</sc>      111
 */
 
------File: 012.png---------------------------------------------------------
------File: 013.png---------------------------------------------------------
+.sp 4
 
+.pb
 
+.bn 012.png
+.pn +1
+.bn 013.png
+.pn +1
 
+.sp 4
 
-INTRODUCTORY
-A NEW RELIGION
------File: 014.png---------------------------------------------------------
------File: 015.png---------------------------------------------------------
+.h2
+INTRODUCTORY|A NEW RELIGION
 
+.sp 4
 
+.pb
 
+.bn 014.png
+.pn +1
+.bn 015.png
+.pn +1
 
-THE CATHOLIC CHURCH AND
-CONVERSION
+.sp 4
 
+.h2
+THE CATHOLIC CHURCH AND|CONVERSION
 
+.sp 4
 
+.h2
+CHAPTER I||INTRODUCTORY: A NEW RELIGION
 
-CHAPTER I
-
-INTRODUCTORY: A NEW RELIGION
-
+.sp 2
 
 The Catholic faith used to be called the Old
 Religion; but at the present moment it has a recognized
@@ -318,7 +402,8 @@ in England or America, we shall find that Catholicism
 is actually for practical purposes treated as a
 new religion, that is, a revolution. It is not a survival.
 It is not in that sense an antiquity. It does
------File: 016.png---------------------------------------------------------
+.bn 016.png
+.pn +1
 not necessarily owe anything to tradition. In places
 where tradition can do nothing for it, in places
 where all the tradition is against it, it is intruding
@@ -350,7 +435,8 @@ Darker and sterner aunts and uncles, perhaps at a
 rather earlier period, used actually to talk about
 it as an indecent indulgence, as if its literature were
 literally a sort of pornography. Newman remarks
------File: 017.png---------------------------------------------------------
+.bn 017.png
+.pn +1
 quite naturally, as if there were nothing odd about
 it at the time, that an undergraduate found with
 an ascetic manual or a book of monastic meditations
@@ -383,7 +469,8 @@ the telegram that will inform him that his son has
 become a Fifth-Monarchy man, any more than that
 he has joined the Albigensians. He does not exactly
 lie awake at night wondering whether Tom
------File: 018.png---------------------------------------------------------
+.bn 018.png
+.pn +1
 at Oxford has become a Lutheran any more than
 a Lollard. All these religions he dimly recognises
 as dead religions; or at any rate as old religions.
@@ -416,7 +503,8 @@ the <i>patria potestas</i> and cutting off the heads
 of all the heretics, he could not cut off the stream
 of all the heresies. Only by this time most of the
 streams have run rather dry. It is now seldom
------File: 019.png---------------------------------------------------------
+.bn 019.png
+.pn +1
 necessary for the anxious parent to warn his children
 against the undesirable society of the Bull of
 Mithras, or even to wean him from the exclusive
@@ -448,7 +536,8 @@ basis of a Greek legend. There is something almost
 as legendary about the religion that is two thousand
 years old now appearing as a rival of the new religions.
 That is what has to be explained and
------File: 020.png---------------------------------------------------------
+.bn 020.png
+.pn +1
 cannot be explained away; nothing can turn the
 legend into a myth. We have seen with our own
 eyes and heard with our own ears this great modern
@@ -481,7 +570,8 @@ agreement; but they do inherit them. For them
 religion is tradition. We Catholics naturally do
 not sneer at tradition; but we say that in this case
 it is really tradition and nothing else. Not one
------File: 021.png---------------------------------------------------------
+.bn 021.png
+.pn +1
 man in a hundred of these people would ever have
 joined his present communion if he had been born
 outside it. Not one man in a thousand of them
@@ -514,7 +604,8 @@ stupidly despised. It is already beginning to appear
 as the only champion of reason in the twentieth
 century, as it was the only champion of tradition
 in the nineteenth. We know that the higher mathematics
------File: 022.png---------------------------------------------------------
+.bn 022.png
+.pn +1
 is trying to deny that two and two make
 four and the higher mysticism to imagine something
 that is beyond good and evil. Amid all these anti-rational
@@ -547,7 +638,8 @@ later movement than is implied in describing my
 own life or generation. I believe it will be more
 and more an issue for the rising generation and for
 the generation after that, as they discover the actual
------File: 023.png---------------------------------------------------------
+.bn 023.png
+.pn +1
 alternative in the awful actualities of our time. And
 Catholics when they stand up together and sing
 “Faith of our Fathers” may realise almost with
@@ -555,22 +647,31 @@ amusement that they might well be singing “Faith
 of our Children.” And in many cases the return
 has been so recent as almost to deserve the description
 of a Children’s Crusade.
------File: 024.png---------------------------------------------------------
------File: 025.png---------------------------------------------------------
+.bn 024.png
+.pn +1
+.bn 025.png
+.pn +1
 
+.sp 4
+.pb
 
+.sp 4
 
-
+.h2
 THE OBVIOUS BLUNDERS
------File: 026.png---------------------------------------------------------
------File: 027.png---------------------------------------------------------
 
+.sp 4
+.pb
 
+.bn 026.png
+.pn +1
+.bn 027.png
+.pn +1
 
+.sp 4
 
-CHAPTER II
-
-THE OBVIOUS BLUNDERS
+.h2
+CHAPTER II||THE OBVIOUS BLUNDERS
 
 
 I have noted that Catholicism really is in the
@@ -599,7 +700,8 @@ as anything else.” Nevertheless, it is right to make
 the imaginative effort. It is not bigotry to be certain
 we are right; but it is bigotry to be unable to
 imagine how we might possibly have gone wrong.
------File: 028.png---------------------------------------------------------
+.bn 028.png
+.pn +1
 It is my duty to try to understand what H. G.
 Wells can possibly mean when he says that the
 mediæval Church did not care for education but
@@ -632,7 +734,8 @@ men than I have not always seen that the slander
 was obvious. I do not think that they exercise
 much influence on the generation that is younger
 than mine. The worst temptation of the most
------File: 029.png---------------------------------------------------------
+.bn 029.png
+.pn +1
 pagan youth is not so much to denounce monks
 for breaking their vow as to wonder at them for
 keeping it. But there is a state of transition that
@@ -665,7 +768,8 @@ not believe the Bible themselves. Some of them
 even tried to combine the two condemnations and
 say that they were steps of progress. The next
 step in progress consisted in a man kicking his
------File: 030.png---------------------------------------------------------
+.bn 030.png
+.pn +1
 father for having locked up a book of such beauty
 and value, a book which the son then proceeded to
 tear into a thousand pieces. I early discovered that
@@ -698,7 +802,8 @@ really be Anglo-Catholicism. There is a distinction
 of ultimate intention there which in the vague
 English atmosphere is often missed. It is not a
 difference of degree but of definite aim. There are
------File: 031.png---------------------------------------------------------
+.bn 031.png
+.pn +1
 High Churchmen as much as Low Churchmen who
 are concerned first and last to save the Church of
 England. Some of them think it can be saved by
@@ -730,7 +835,8 @@ street) and he sees a procession go by of the priests
 of some strange cult, carrying their object of worship
 under a canopy, some of them wearing high
 head-dresses and carrying symbolical staffs, others
------File: 032.png---------------------------------------------------------
+.bn 032.png
+.pn +1
 carrying scrolls and sacred records, others carrying
 sacred images and lighted candles before them,
 others sacred relics in caskets or cases, and so on.
@@ -763,7 +869,8 @@ and wreck the rest,” is not sensible from any
 standpoint, least of all that of the man in the street.
 
 Similarly, I could never take seriously the fear
------File: 033.png---------------------------------------------------------
+.bn 033.png
+.pn +1
 of the priest, as of something unnatural and unholy;
 a dangerous man in the home. Why should
 a man who wanted to be wicked encumber himself
@@ -795,7 +902,8 @@ They seemed at once pleased and shocked
 with my daring, as if I had undertaken to convert
 a burglar or tame a mad dog. Perhaps their alarm
 was really wiser than my bravado. Anyhow, I
------File: 034.png---------------------------------------------------------
+.bn 034.png
+.pn +1
 had not then the most shadowy notion that the
 burglar would convert me. That, however, I
 am inclined to think, is the subconscious intuition
@@ -828,7 +936,8 @@ avoid saying ugly things. This might be right or
 wrong; but it was absurd to pillory half a dozen
 Popish priests for a crime committed daily by half
 a million Protestant laymen. The only difference
------File: 035.png---------------------------------------------------------
+.bn 035.png
+.pn +1
 was that the Jesuits had been worried enough about
 the matter to try to make rules and limitations
 saving as much verbal veracity as possible; whereas
@@ -861,7 +970,8 @@ that they are trying to have it both ways. They
 are always complaining that our creed is cut and
 dried; that we are told what to believe and must
 believe nothing else; that it is all written down
------File: 036.png---------------------------------------------------------
+.bn 036.png
+.pn +1
 for us in bulls and confessions of faith. In so far
 as this is true, it brings a matter like this to the
 point of legal and literal truth, which can be tested;
@@ -893,7 +1003,8 @@ They never looked for them. They never looked
 for anything. They seemed to have simply made
 up out of their own heads a number of phrases,
 such as a Scarlet Woman of deficient intellect might
------File: 037.png---------------------------------------------------------
+.bn 037.png
+.pn +1
 be supposed to launch on the world; and left it at
 that. Boundless freedom reigned; it was not treated
 as if it were a question of fact at all. A priest might
@@ -925,7 +1036,8 @@ very much, even at that early stage, to imagine why
 people bringing controversial charges against a
 powerful and prominent institution should thus
 neglect to test their own case, and should draw in
------File: 038.png---------------------------------------------------------
+.bn 038.png
+.pn +1
 this random way on their own imagination. It
 did not make me any more inclined to be a Catholic;
 in those days the very idea of such a thing
@@ -958,7 +1070,8 @@ curious that this Jesuit raised a storm by refusing
 to be Jesuitical (in the journalese sense I mean), by
 refusing to substitute smooth equivocation and
 verbal evasion for a brute fact. Because he talked
------File: 039.png---------------------------------------------------------
+.bn 039.png
+.pn +1
 about “killing Germans” when Germans had to
 be killed, all our shifty and shamefaced morality
 was shocked at him. And none of those protesting
@@ -991,7 +1104,8 @@ did I inherit a barbarian feud. The people
 I was born amongst wished to be just to Catholics
 if they did not always understand them; and I
 should be very thankless if I did not record of them
------File: 040.png---------------------------------------------------------
+.bn 040.png
+.pn +1
 that (like a very much more valuable convert) I
 can say I was born free.
 
@@ -1024,7 +1138,8 @@ the brotherhood of nations, which to me was a
 truism, to them was a trumpet. That was why it
 seemed such a thrilling paradox to say that we
 must love foreigners; it had in it the divine paradox
------File: 041.png---------------------------------------------------------
+.bn 041.png
+.pn +1
 that we must love enemies. That was why
 the Internationalist was always planning deputations
 and visits to foreign capitals and heart-to-heart
@@ -1056,7 +1171,8 @@ start with mankind and go beyond it to all the
 varied loves and traditions of mankind. There
 never was a more illuminating flash than that
 which lit up the last moment of one of the most
------File: 042.png---------------------------------------------------------
+.bn 042.png
+.pn +1
 glorious of English Protestants; one of the most
 Protestant and one of the most English. For that
 is the meaning of that phrase of Nurse Cavell, herself
@@ -1089,7 +1205,8 @@ The most careless and cynical of Catholics knows
 better; and so did the most vague and visionary of
 Universalists. Of all the Protestant difficulties,
 which I here find it hard to imagine, this is perhaps
------File: 043.png---------------------------------------------------------
+.bn 043.png
+.pn +1
 the most common and in many ways commendable:
 the fact that the normal British subject begins by
 being so very British. By accident I did not. The
@@ -1122,7 +1239,8 @@ The Catholic Church loves nations as she loves
 men; because they are her children. But they certainly
 are her children, in the sense that they are
 secondary to her in time and process of production.
------File: 044.png---------------------------------------------------------
+.bn 044.png
+.pn +1
 This is, as it happens, a very good example of a
 fallacy that often confuses discussion about the
 convert. The same people who call the convert
@@ -1154,7 +1272,8 @@ free to believe them as he is to believe that a horse
 has feathers or that the sun is pea green. He cannot
 believe them when once he fully realises them; and
 among such things is the notion that the national
------File: 045.png---------------------------------------------------------
+.bn 045.png
+.pn +1
 claim upon a good patriot is in its nature more
 absolute, ancient and authoritative than the claim
 of the whole religious culture which first mapped
@@ -1187,7 +1306,8 @@ profoundly believe and happen to feel strongly.
 I have always done my best to defend it; though
 I have sometimes become suspect by sympathising
 with other people’s patriotism besides my own.
------File: 046.png---------------------------------------------------------
+.bn 046.png
+.pn +1
 But I cannot see how it can be defended except as
 part of a larger morality; and the Catholic morality
 happens to be one of the very few large moralities
@@ -1208,22 +1328,31 @@ yet even conceived the notion of founding such a
 national and separate state; that the Faith really was
 not only the faith of our fathers, but the faith of
 our fathers before they had even named our fatherland.
------File: 047.png---------------------------------------------------------
+.sp 4
+.pb
 
+.bn 047.png
+.pn +1
 
+.sp 4
 
-
-THE REAL OBSTACLES
------File: 048.png---------------------------------------------------------
------File: 049.png---------------------------------------------------------
-
-
-
-
-CHAPTER III
-
+.h2
 THE REAL OBSTACLES
 
+.sp 4
+.pb
+
+.bn 048.png
+.pn +1
+.bn 049.png
+.pn +1
+
+.sp 4
+
+.h2
+CHAPTER III||THE REAL OBSTACLES
+
+.sp 2
 
 In the last chapter I have dealt in a preliminary
 fashion with the Protestant case in the conventional
@@ -1250,7 +1379,8 @@ counted with anybody who had begun to draw
 near to it. When a man really sees the Church,
 even if he dislikes what he sees, he does not see
 what he had expected to dislike. Even if he wants
------File: 050.png---------------------------------------------------------
+.bn 050.png
+.pn +1
 to slay it he is no longer able to slander it; though
 he hates it at sight, what he sees is not what he
 looked to see; in that place he may gain a new
@@ -1283,7 +1413,8 @@ Protestantism seems to be that so long as we go on
 shouting “To hell with the Pope” there is room
 for the widest differences of opinion about whether
 he should go to the hell of the misers or the hell
------File: 051.png---------------------------------------------------------
+.bn 051.png
+.pn +1
 of the spendthrifts. This is what is meant by a
 broad basis for Christianity and the statement that
 there is room for many different opinions side by
@@ -1316,7 +1447,8 @@ loved, we can go on flatly contradicting each other
 for ever about what there is to be hated.
 
 Such is the larger and more liberal modern attack
------File: 052.png---------------------------------------------------------
+.bn 052.png
+.pn +1
 upon the Church. It is quite inconsistent with
 the old doctrinal attack; but it does not propose
 to lose the advantages arising from any sort of attack.
@@ -1349,7 +1481,8 @@ The short way of putting it is to say that he is
 no longer afraid of the vices but very much afraid
 of the virtues of Catholicism. For instance, he has
 forgotten all about the old nonsense of the cunning
------File: 053.png---------------------------------------------------------
+.bn 053.png
+.pn +1
 lies of the confessional, in his lively and legitimate
 alarm of the truthfulness of the confessional. He
 does not recoil from its insincerity but from its
@@ -1381,7 +1514,8 @@ that nobody outside should know what gigantic
 generosity, and even geniality, can be locked up in
 a box, as the legendary casket held the heart of the
 giant. It is a satisfaction, and almost a joke, that
------File: 054.png---------------------------------------------------------
+.bn 054.png
+.pn +1
 it is only in a dark corner and a cramped space
 that any man can discover that mountain of
 magnanimity.
@@ -1415,7 +1549,8 @@ of the Protestant picture of Catholicism; but he is
 sometimes frightened of the Catholic picture of
 Catholicism; which may be a good reason for not
 disproportionately stressing the difficult or puzzling
------File: 055.png---------------------------------------------------------
+.bn 055.png
+.pn +1
 parts of the scheme. For the convert’s sake, it
 should also be remembered that one foolish word
 from inside does more harm than a hundred thousand
@@ -1448,7 +1583,8 @@ nothing merely external that is tugging at his liberty.
 The laity are probably less wise; for in most
 communions the ecclesiastical layman is more ecclesiastical
 than is good for his health, and certainly
------File: 056.png---------------------------------------------------------
+.bn 056.png
+.pn +1
 much more ecclesiastical than the ecclesiastics. My
 experience is that the amateur is generally much
 more angry than the professional; and if he expresses
@@ -1481,7 +1617,8 @@ vanishes with the smallest experience of the
 militant layman. The priest does his job, but it is
 much more his secular co-religionist who is disposed
 to explain it and talk about it. I do not
------File: 057.png---------------------------------------------------------
+.bn 057.png
+.pn +1
 object to laymen proselytising; for I never could
 see, even when I was practically a pagan, why a
 man should not urge his own opinions if he liked
@@ -1514,7 +1651,8 @@ old sense of the term, as when the Prayer Book
 talks of judges who will truly and indifferently
 administer justice. Some flippant modern person
 would probably agree that our judges administer
------File: 058.png---------------------------------------------------------
+.bn 058.png
+.pn +1
 justice very indifferently. But the older meaning
 was legitimate and even logical and it is that which
 is applicable here. The first phase is that of the
@@ -1546,7 +1684,8 @@ equivocation or what people call Jesuitry. He
 meant, “When the child really is hiding in the cupboard
 and the Chinese torturers really are chasing
 him with red-hot pincers, then (and then only)
------File: 059.png---------------------------------------------------------
+.bn 059.png
+.pn +1
 be sure that you are right to deceive and do not
 hesitate to lie; but do not stoop to equivocate. Do
 not bother yourself to say, “The child is in a
@@ -1578,7 +1717,8 @@ not (consciously at least) because they
 hold any particular truth, but because they suffer
 from a particular accumulation of falsehood. The
 second stage is that in which the convert begins to
------File: 060.png---------------------------------------------------------
+.bn 060.png
+.pn +1
 be conscious not only of the falsehood but the truth,
 and is enormously excited to find that there is far
 more of it than he would ever have expected. This
@@ -1610,7 +1750,8 @@ that it is always wicked to set silly old women
 wagging their tongues. Scandal means scandal,
 what it originally meant in Greek and Latin; the
 tripping up of somebody else when he is trying to
------File: 061.png---------------------------------------------------------
+.bn 061.png
+.pn +1
 be good. Or he will discover that phrases like
 “counsel of perfection” or “venial sin,” which mean
 nothing at all in the newspapers, mean something
@@ -1643,7 +1784,8 @@ a strange and alarming fact, which is perhaps
 implied in Newman’s interesting lecture on
 Blanco White and the two ways of attacking Catholicism.
 Anyhow, it is a truth that Newman and
------File: 062.png---------------------------------------------------------
+.bn 062.png
+.pn +1
 every other convert has probably found in one
 form or another. It is impossible to be just to the
 Catholic Church. The moment men cease to pull
@@ -1675,7 +1817,8 @@ because it is so very true. If I may refer once more
 to a personal experience, I may say that I for one
 was never less troubled by doubts than in the last
 phase, when I was troubled by fears. Before that
------File: 063.png---------------------------------------------------------
+.bn 063.png
+.pn +1
 final delay I had been detached and ready to regard
 all sorts of doctrines with an open mind. Since
 that delay has ended in decision, I have had all
@@ -1708,7 +1851,8 @@ a Catholic. I am myself a Mediævalist, in
 the sense that I think modern life has a great deal
 to learn from mediæval life; that Guilds are a better
 social system than Capitalism; that friars are
------File: 064.png---------------------------------------------------------
+.bn 064.png
+.pn +1
 far less offensive than philanthropists. But I am a
 much more reasonable and moderate Mediævalist
 than I was when I was only a Mediævalist. For
@@ -1741,7 +1885,8 @@ modern men certain ancient and serene words:
 <i>Romanus civis sum</i>; I am not a slave.
 
 The point for the moment, however, is that
------File: 065.png---------------------------------------------------------
+.bn 065.png
+.pn +1
 there is generally an interval of intense nervousness,
 to say the least of it, before this normal heritage
 is reached. To a certain extent it is a fear which
@@ -1774,7 +1919,8 @@ This note on the stages of conversion is necessarily
 very negative and inadequate. There is in
 the last second of time or hair’s breadth of space,
 before the iron leaps to the magnet, an abyss full
------File: 066.png---------------------------------------------------------
+.bn 066.png
+.pn +1
 of all the unfathomable forces of the universe. The
 space between doing and not doing such a thing
 is so tiny and so vast. It is only possible here to
@@ -1807,7 +1953,8 @@ have not the smallest intention of attempting to
 fathom it. It is a theological question of the utmost
 complexity; and it is one thing to feel it as
 a fact and another to define it as a truth. One or
------File: 067.png---------------------------------------------------------
+.bn 067.png
+.pn +1
 two points about the preliminary dispositions that
 prepare the mind for it are all that need be indicated
 here. To begin with, there is one sense in
@@ -1839,7 +1986,8 @@ consciously and unconsciously treat the Catholic
 Church as a <i>peril</i>, is the evidence that there is something
 here that we cannot look on at languidly and
 with detachment, as we might look on at Hottentots
------File: 068.png---------------------------------------------------------
+.bn 068.png
+.pn +1
 dancing at the new moon or Chinamen burning
 paper in porcelain temples. The Chinaman and
 the tourist can be on the best of terms on a basis of
@@ -1872,7 +2020,8 @@ gestures and gentle eyes, its avowedly popular
 pathos and all that Matthew Arnold meant by
 Christianity with its “relieving tears”—all this is
 a sign of sensitive and vivid vitality in anything
------File: 069.png---------------------------------------------------------
+.bn 069.png
+.pn +1
 so vast and settled and systematic. There is nothing
 quite like this warmth, as in the warmth of
 Christmas, amid ancient hills hoary with such
@@ -1903,7 +2052,8 @@ still alive. And anything outlandish and unfamiliar
 in its form accentuates the startling naturalness
 and familiarity of its mind, as if the Sphinx
 began suddenly to talk of the topics of the hour.
------File: 070.png---------------------------------------------------------
+.bn 070.png
+.pn +1
 The super-elephant is not only a tame animal but
 a pet; and a young child shall lead him.
 
@@ -1936,7 +2086,8 @@ and sometimes even because she militates
 against ourselves. She is something more than the
 cosmos, in the sense of completed nature or completed
 human nature. She proves that she is something
------File: 071.png---------------------------------------------------------
+.bn 071.png
+.pn +1
 more by sometimes being right where they
 are wrong. These two aspects must be considered
 separately, though they come together to form the
@@ -1953,23 +2104,34 @@ away from the Church. When those three
 phases are over, a larger truth begins to come into
 sight; it is much too large to describe and we will
 proceed to describe it.
------File: 072.png---------------------------------------------------------
------File: 073.png---------------------------------------------------------
 
+.sp 4
+.pb
 
+.bn 072.png
+.pn +1
+.bn 073.png
+.pn +1
 
+.sp 4
 
-THE WORLD INSIDE OUT
------File: 074.png---------------------------------------------------------
------File: 075.png---------------------------------------------------------
-
-
-
-
-CHAPTER IV
-
+.h2
 THE WORLD INSIDE OUT
 
+.sp 4
+.pb
+
+.bn 074.png
+.pn +1
+.bn 075.png
+.pn +1
+
+.sp 4
+
+.h2
+CHAPTER IV||THE WORLD INSIDE OUT
+
+.sp 2
 
 The first fallacy about the Catholic Church is
 the idea that it is a church. I mean that it is a
@@ -1996,7 +2158,8 @@ was not one of the nations into which it
 broke up. And even a person who thinks it fortunate
 that the Church broke up into sects ought
 to be able to distinguish between the little things
------File: 076.png---------------------------------------------------------
+.bn 076.png
+.pn +1
 he likes and the big thing he has broken. As a
 matter of fact, in the case of things so large, so
 unique and so creative of the culture about them
@@ -2028,7 +2191,8 @@ was bound to fail. But calling the wreckers to
 break up a ship does not turn the ship into one of
 its own timbers; and cutting Poland up into three
 pieces does not make Poland the same as Posen.
------File: 077.png---------------------------------------------------------
+.bn 077.png
+.pn +1
 
 But in a much more profound and philosophical
 sense this notion that the Church is one of the
@@ -2061,7 +2225,8 @@ most of us regarded it as dirty and disreputable; a
 few of us even pointed out that many details in
 the ruin were artistically beautiful or architecturally
 important. But most people preferred to deal
------File: 078.png---------------------------------------------------------
+.bn 078.png
+.pn +1
 at other and more business-like booths; at the
 Quaker shop of Peace and Plenty or the Salvation
 Army store where the showman beats the big drum
@@ -2093,7 +2258,8 @@ it is true. The return of Catholic ideas to the separated
 parts of Christendom was often indeed indirect.
 But though the influence came through
 many centres, it always came from one. It came
------File: 079.png---------------------------------------------------------
+.bn 079.png
+.pn +1
 through the Romantic Movement, a glimpse of the
 mere picturesqueness of mediævalism; but it is
 something more than an accident that Romances,
@@ -2126,7 +2292,8 @@ of Stiggins and Brother Tadger. For he also is a
 Christian and lives only by the life of Christendom.
 
 It is not easy to express this enormous inversion
------File: 080.png---------------------------------------------------------
+.bn 080.png
+.pn +1
 which I have here tried to suggest in the image of a
 world turned inside out. I mean that the thing
 which had been stared at as a small something swells
@@ -2158,7 +2325,8 @@ But when he makes it mean that God wishes particular
 people to be damned, we may say with all
 restraint that he has become a rather morbid Catholic.
 In point of fact he is a diseased Catholic;
------File: 081.png---------------------------------------------------------
+.bn 081.png
+.pn +1
 and the disease left to itself would be death or madness.
 But, as a matter of fact, the disease did not
 last long, and is itself now practically dead. But
@@ -2191,7 +2359,8 @@ all. Now some may suppose that this can be maintained
 of the older sects like Calvinists and Quakers,
 but cannot be maintained of modern movements
 like those of Socialists or Spiritualists. But they
------File: 082.png---------------------------------------------------------
+.bn 082.png
+.pn +1
 will be quite wrong. The covering or continental
 character of the Church applies just as much to
 modern manias as to the old religious manias; it
@@ -2223,7 +2392,8 @@ that some people do not believe in the Catholic
 dogma of the mystical equality of men. Yet there
 are many, even among Christians, who are so heretical
 as to question it. The Socialists get into a
------File: 083.png---------------------------------------------------------
+.bn 083.png
+.pn +1
 great tangle when they try to apply it; they compromise
 with their own ideals; they modify their
 own doctrine; and so find themselves, like the Quakers
@@ -2256,7 +2426,8 @@ the other ideas. That is why the wealthy business
 man so often becomes a Christian Scientist. He is
 not used to ideas and one idea goes to his head, like
 one glass of wine to a starving man. But the Catholic
------File: 084.png---------------------------------------------------------
+.bn 084.png
+.pn +1
 Church is used to living with ideas and walks
 among all those very dangerous wild beasts with
 the poise and the lifted head of a lion-tamer. The
@@ -2289,7 +2460,8 @@ mess of it. He is no more likely to be overawed
 by the fact that Mrs. Eddy achieved spiritual healing
 or Mr. Home achieved bodily levitation than
 a fully dressed gentleman in Bond Street would be
------File: 085.png---------------------------------------------------------
+.bn 085.png
+.pn +1
 overawed by the top-hat on the head of a naked
 savage. A top-hat may be a good hat but it is a
 bad costume. And a magnetic trick may be a sufficient
@@ -2322,7 +2494,8 @@ natural remarks of converts, about having found
 moral peace, with some idea of their having found
 mental rest, in the sense of mental inaction. They
 might as well say that a man who has completely
------File: 086.png---------------------------------------------------------
+.bn 086.png
+.pn +1
 recovered his health, after an attack of palsy or St.
 Vitus’ dance, signalises his healthy state by sitting
 absolutely still like a stone. Recovering his health
@@ -2354,7 +2527,8 @@ than to hear the speculations about when or whether
 he will repent of the conversion; when he will
 be sick of it, how long he will stand it, at what
 stage of his external exasperation he will start up
------File: 087.png---------------------------------------------------------
+.bn 087.png
+.pn +1
 and say he can bear it no more. For all this is
 founded on that optical illusion about the outside
 and the inside which I have tried to sketch in this
@@ -2386,7 +2560,8 @@ of ignorance. It is a wheel that must always go
 round without a single jolt of miraculous interruption—a
 circle that must not be squared by any
 higher mathematics of mysticism; a machine that
------File: 088.png---------------------------------------------------------
+.bn 088.png
+.pn +1
 must be scoured as clean of all spirits as if it
 were the avowed machine of materialism. In living
 in a world with two orders, the supernatural
@@ -2418,7 +2593,8 @@ hope for would be to wander away into the woods
 and become, not a Pantheist (for that is also a limitation
 and a bore) but rather a pagan, in the mood
 to cry out that some particular mountain peak or
------File: 089.png---------------------------------------------------------
+.bn 089.png
+.pn +1
 flowering fruit tree was sacred and a thing to be
 worshipped. That at least would be beginning
 all over again; but it would bring me back to the
@@ -2451,7 +2627,8 @@ that the conversion I understand is that of the pagan
 and not the Puritan; and upon that antique conversion
 is founded the whole world that we know.
 It is a transformation far more vast and tremendous
------File: 090.png---------------------------------------------------------
+.bn 090.png
+.pn +1
 than anything that has been meant for many years
 past, at least in England and America, by a sectarian
 controversy or a doctrinal division. On the
@@ -2461,22 +2638,29 @@ another; but only quarrels about that one. Paganism
 was the largest thing in the world and Christianity
 was larger; and everything else has been
 comparatively small.
------File: 091.png---------------------------------------------------------
 
+.sp 4
+.pb
 
+.bn 091.png
+.pn +1
 
-
+.sp 4
+.h2
 THE EXCEPTION PROVES THE RULE
------File: 092.png---------------------------------------------------------
------File: 093.png---------------------------------------------------------
+.sp 4
 
+.pb
+.bn 092.png
+.pn +1
+.bn 093.png
+.pn +1
 
+.sp 4
 
-
-CHAPTER V
-
-THE EXCEPTION PROVES THE RULE
-
+.h2
+CHAPTER V||THE EXCEPTION PROVES THE RULE
+.sp 2
 
 The Catholic Church is the only thing which
 saves a man from the degrading slavery of being
@@ -2503,7 +2687,8 @@ of rotation of crops in religious history; and old
 fields can lie fallow for a while and then be worked
 again. But when the new religion or any such
 notion has sown its one crop of wild oats, which
------File: 094.png---------------------------------------------------------
+.bn 094.png
+.pn +1
 the wind generally blows away, it is barren. A
 thing as old as the Catholic Church has an accumulated
 armoury and treasury to choose from; it can
@@ -2536,7 +2721,8 @@ churches even became cinemas. In its more moderate
 form the mood was merely one of praising natural
 pleasures, such as the enjoyment of nature and
 even the enjoyment of human nature. These are
------File: 095.png---------------------------------------------------------
+.bn 095.png
+.pn +1
 excellent things and this is an excellent liberty; and
 yet it has its limitations.
 
@@ -2570,7 +2756,8 @@ who could hardly bear the sight of each others’
 faces. It was a very different thing when charity
 was preached to pagans who really did not believe
 in it; just as it is a very different thing now, when
------File: 096.png---------------------------------------------------------
+.bn 096.png
+.pn +1
 chastity is preached to new pagans who do not believe
 in it. It is in those cases that we get the real
 grapple of religion; and it is in those cases that we
@@ -2602,7 +2789,8 @@ process of argument. But if we then fling
 ourselves into The Pig and Whistle and are immediately
 poisoned with the gin or smothered in
 the feather-bed and robbed of our money, we recognise
------File: 097.png---------------------------------------------------------
+.bn 097.png
+.pn +1
 that the man who advised us did know something
 about it and had a cultivated and scientific
 knowledge of the public houses of the district. We
@@ -2635,7 +2823,8 @@ I shall be obliged to take merely personal examples
 in order to explain it. I mean that we have often
 had a premonition as well as a warning; and the
 fact often comes back to us after we have disregarded
------File: 098.png---------------------------------------------------------
+.bn 098.png
+.pn +1
 both. It is worth noting in connection
 with conversion, because the convert is often obstructed
 by a catchword which says that the Church
@@ -2669,7 +2858,8 @@ a much better judge of it.
 
 Shades of the prison-house began to close and
 with them came a merely mechanical discussion as
------File: 099.png---------------------------------------------------------
+.bn 099.png
+.pn +1
 to how we were all to get out of prison. <i>Then</i>
 indeed, in the darkness of the dungeon, was heard
 the voice of Mr. Sidney Webb, telling us that we
@@ -2701,7 +2891,8 @@ we could not expect the poor old gentleman to
 know what every young man knew by this time—that
 Socialism was inevitable. That was a long
 time ago, and by a gradual process, mostly practical
------File: 100.png---------------------------------------------------------
+.bn 100.png
+.pn +1
 and political, which I have no intention of
 describing here, most of us began to realise that
 Socialism was not inevitable; that it was not really
@@ -2734,7 +2925,8 @@ when we were wrong.
 The superficial critic of these things, noting that
 I am no longer a Socialist, will always say, “Of
 course, you are a Catholic and you are not allowed
------File: 101.png---------------------------------------------------------
+.bn 101.png
+.pn +1
 to be a Socialist.” To which I answer emphatically,
 No. That is missing the whole point. The
 Church anticipated my experience; but it was experience
@@ -2767,7 +2959,8 @@ was very young. While I had a vague but innocent
 nursery religion still hanging about me, I regarded
 the first signs of these psychic and psychological
 things with mere repugnance. I hated the whole
------File: 102.png---------------------------------------------------------
+.bn 102.png
+.pn +1
 notion of mesmerism and magnetic tricks with the
 mind; I loathed their bulging eyes and stiff attitudes
 and unnatural trances and the whole bag of tricks.
@@ -2800,7 +2993,8 @@ But I wish to note about both those cases that
 the common cant in the matter is emphatically not
 true. It is not true that the Church crushed my
 natural conscience; it is not true that the Church
------File: 103.png---------------------------------------------------------
+.bn 103.png
+.pn +1
 asked me to give up my individual ideal. It is not
 true that Collectivism was ever my <i>ideal</i>. I do not
 believe it was ever really anybody else’s ideal. It
@@ -2832,7 +3026,8 @@ matured experience. The Faith had not only been
 true all along, but it had been true to the first and
 the last things, to our unspoilt instincts and our
 conclusive experience; and it had condemned nothing
------File: 104.png---------------------------------------------------------
+.bn 104.png
+.pn +1
 but an interlude of intellectual snobbishness and
 surrender to the persuasions of pedantry. It had
 condemned nothing but what we ourselves should
@@ -2865,7 +3060,8 @@ And of all those things that can be tested by experience
 I could tell the same story: that there was
 a time when I thought the Catholic doctrine was
 meaningless, but that even that was not the very
------File: 105.png---------------------------------------------------------
+.bn 105.png
+.pn +1
 earliest time, which was a time of greater simplicity,
 when I had a sort of glimpse of the meaning though
 I had never even heard of the doctrine. The world
@@ -2898,7 +3094,8 @@ I assumed that cheerfulness was a good thing, but
 I also assumed that it was a bad thing not to protest
 against things that are really bad. After an
 interlude of intellectual formalism and false antithesis,
------File: 106.png---------------------------------------------------------
+.bn 106.png
+.pn +1
 I have come back to being able to think what
 I could then only feel. But I have realised that
 the protest can rise to a much more divine indignation
@@ -2931,7 +3128,8 @@ forbidden fruit is often more fruitful than the free.
 It is more fruitful in the sense of a fascinating botanical
 study of why it is really poisonous. Thus,
 for the sake of an example, all healthy people have
------File: 107.png---------------------------------------------------------
+.bn 107.png
+.pn +1
 an instinct against usury; and the Church has only
 confirmed that instinct. But to learn how to define
 usury, to study what it is and to argue why it is
@@ -2964,7 +3162,8 @@ justify the whole Catholic theology, if I be granted
 to start with the supreme sacredness and value of
 two things: Reason and Liberty. It is an illuminating
 comment on current anti-Catholic talk that
------File: 108.png---------------------------------------------------------
+.bn 108.png
+.pn +1
 they are the two things which most people imagine
 to be forbidden to Catholics.
 
@@ -2995,22 +3194,32 @@ terrible truths. But I know that Universalism is
 too small for me; and I could not creep back into
 that dull safety, who have looked on the dizzy
 vision of liberty.
------File: 109.png---------------------------------------------------------
 
+.sp 4
+.pb
 
+.bn 109.png
+.pn +1
 
+.sp 4
 
-A NOTE ON PRESENT PROSPECTS
------File: 110.png---------------------------------------------------------
------File: 111.png---------------------------------------------------------
-
-
-
-
-CHAPTER VI
-
+.h2
 A NOTE ON PRESENT PROSPECTS
 
+.sp 4
+.pb
+
+.bn 110.png
+.pn +1
+.bn 111.png
+.pn +1
+
+.sp 4
+
+.h2
+CHAPTER VI||A NOTE ON PRESENT PROSPECTS
+
+.sp 2
 
 On reconsidering these notes I find them to be
 far too personal; yet I do not know how any conception
@@ -3037,7 +3246,8 @@ and suddenly, first in one unexpected place and then
 in another, making great holes in that solid land
 and letting up the leaping flames of what was
 counted an extinct volcano. It is in everybody’s
------File: 112.png---------------------------------------------------------
+.bn 112.png
+.pn +1
 experience, whether he is sad or glad or mad or
 merely indifferent, that these conversions seem to
 come of themselves in the most curious and apparently
@@ -3070,7 +3280,8 @@ fact to realise is that it is in other directions, in
 totally different directions. Some people, especially
 young people, abandon practising Catholicism. But
 none of them abandon it for Protestantism. All of
------File: 113.png---------------------------------------------------------
+.bn 113.png
+.pn +1
 them practically abandon it for paganism. Most
 of them abandon it for something that is really
 rather too simple to be called an <i>ism</i> of any kind.
@@ -3103,7 +3314,8 @@ dogmatic anarchism of the middle of the nineteenth
 century is not the creed they hold, or even the excuse
 they offer. They have a considerable negative
 revolt against religion, a negative revolt against
------File: 114.png---------------------------------------------------------
+.bn 114.png
+.pn +1
 negative morality. They have a feeling, which is
 not unreasonable, that to commit themselves to the
 Catholic citizenship is to take responsibilities that
@@ -3136,7 +3348,8 @@ reasonable.
 For that is the very simple explanation of the
 affair. In so far as there is really a secession among
 the young, it is but a part of the same process as
------File: 115.png---------------------------------------------------------
+.bn 115.png
+.pn +1
 that conversion of the young, of which I wrote in
 the first chapter. The rising generation sees the
 real issue; and those who are ready for it rally, and
