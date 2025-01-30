@@ -14,6 +14,7 @@
 
 // Page numbering
 .pn off // turn off visible page numbers
+.pn link
 
 // Paragraph formatting, indent paragraphs by 0.75 em.
 .pi
@@ -327,22 +328,18 @@ our religion reposes.—<i>The Editor.</i>
 .h2
 CONTENTS
 
+.sp 2
 
-/*
-CHAPTER      PAGE
+.ta r:5 l:40 r:5 w=70%
+| CHAPTER  | PAGE
 
-I. <sc>Introductory: A New Religion</sc>      15
-
-II. <sc>The Obvious Blunders</sc>      27
-
-III. <sc>The Real Obstacles</sc>      49
-
-IV. <sc>The World Inside Out</sc>      75
-
-V. <sc>The Exception Proves the Rule</sc>      93
-
-VI. <sc>A Note On Present Prospects</sc>      111
-*/
+I.   | <sc>Introductory: A New Religion</sc> | #15#
+II.  | <sc>The Obvious Blunders</sc> | #27#
+III. | <sc>The Real Obstacles</sc> | #49#
+IV.  | <sc>The World Inside Out</sc> | #75#
+V.   | <sc>The Exception Proves the Rule</sc> | #93#
+VI.  | <sc>A Note On Present Prospects</sc> | #111#
+.ta-
 
 .sp 4
 
@@ -355,8 +352,9 @@ VI. <sc>A Note On Present Prospects</sc>      111
 
 .sp 4
 
-.h2
-INTRODUCTORY|A NEW RELIGION
+.ce 2
+<fs=120%>INTRODUCTORY</fs>
+<fs=120%>A NEW RELIGION</fs>
 
 .sp 4
 
@@ -369,8 +367,9 @@ INTRODUCTORY|A NEW RELIGION
 
 .sp 4
 
-.h2
-THE CATHOLIC CHURCH AND|CONVERSION
+.ce 2
+<fs=120%>THE CATHOLIC CHURCH AND</fs>
+<fs=120%>CONVERSION</fs>
 
 .sp 4
 
@@ -657,8 +656,8 @@ of a Children’s Crusade.
 
 .sp 4
 
-.h2
-THE OBVIOUS BLUNDERS
+.ce
+<fs=120%>THE OBVIOUS BLUNDERS</fs>
 
 .sp 4
 .pb
@@ -1336,8 +1335,8 @@ our fathers before they had even named our fatherland.
 
 .sp 4
 
-.h2
-THE REAL OBSTACLES
+.ce
+<fs=120%>THE REAL OBSTACLES</fs>
 
 .sp 4
 .pb
@@ -2115,8 +2114,8 @@ proceed to describe it.
 
 .sp 4
 
-.h2
-THE WORLD INSIDE OUT
+.ce
+<fs=120%>THE WORLD INSIDE OUT</fs>
 
 .sp 4
 .pb
@@ -2646,8 +2645,10 @@ comparatively small.
 .pn +1
 
 .sp 4
-.h2
-THE EXCEPTION PROVES THE RULE
+
+.ce
+<fs=120%>THE EXCEPTION PROVES THE RULE</fs>
+
 .sp 4
 
 .pb
@@ -3203,8 +3204,8 @@ vision of liberty.
 
 .sp 4
 
-.h2
-A NOTE ON PRESENT PROSPECTS
+.ce
+<fs=120%>A NOTE ON PRESENT PROSPECTS</fs>
 
 .sp 4
 .pb
