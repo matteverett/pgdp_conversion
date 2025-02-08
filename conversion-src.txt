@@ -33,14 +33,14 @@
 .sp 4
 
 .ce 2
-THE CALVERT SERIES
-<sc>Hilaire Belloc</sc>, <i>General Editor</i>
+<fs=85%>THE CALVERT SERIES</fs>
+<fs=85%><sc>Hilaire Belloc</sc>, <i>General Editor</i></fs>
 
 .sp 4
 
 .ce 2
-<fs=150%>THE CATHOLIC CHURCH AND</fs>
-<fs=150%>CONVERSION</fs>
+<fs=115%>THE CATHOLIC CHURCH AND</fs>
+<fs=115%>CONVERSION</fs>
 
 .sp 4
 
@@ -82,15 +82,11 @@ THE CALVERT SERIES
 
 
 .h1 
-THE CATHOLIC CHURCH|AND CONVERSION
-
-.sp 2
+<fs=135%>THE CATHOLIC CHURCH</fs>|<fs=135%>AND CONVERSION</fs>
 
 .ce 2
-BY
+<fs=85%>BY</fs>
 G. K. CHESTERTON
-
-.sp 2
 
 .ce 3
 New York
@@ -98,7 +94,7 @@ THE MACMILLAN COMPANY
 1927
 
 .ce
-<i>All rights reserved</i>
+<fs=85%><i>All rights reserved</i></fs>
 
 .sp 4
 .pb
@@ -129,6 +125,7 @@ New York, September 16, 1926.
 
 .sp 4
 
+.fs 85%
 .ce 2
 Copyright, 1926,
 <sc>By</sc> THE MACMILLAN COMPANY.
@@ -148,6 +145,7 @@ September, 1927.
 .ce 2
 <i>Printed in the United States of America by</i>
 THE FERRIS PRINTING COMPANY, NEW YORK.
+.fs
 
 .sp 4
 .pb
@@ -3362,7 +3360,7 @@ or the Catholic and the Materialist. It is a
 controversy between philosophers and philanderers.
 I do not say it in contempt; I have much more
 sympathy with the person who leaves the Church
-for a love-affair than with one who leaves it for a
+for a love affair than with one who leaves it for a
 long-winded German theory to prove that God
 is evil or that children are a sort of morbid monkey.
 But the very laws of life are against the endurance
@@ -3371,3 +3369,20 @@ passion; it is bound to change in its proportion
 with the coming of experience; and, at the worst, it
 will become a battle between bad Catholics and
 good Catholics, with the great dome over all.
+
+.pb
+
+.dv class=tnbox
+.ul
+.it Transcriber’s Notes:
+.ul indent=1
+.it Missing or obscured punctuation was silently corrected.
+.it Typographical errors were silently corrected.
+.it Inconsistent spelling and hyphenation were made consistent only when a\
+predominant form was found in this book.
+.if t
+.it Text in italics is enclosed by underscores (<i>italics</i>).
+.if-
+.ul-
+.ul-
+.dv-
