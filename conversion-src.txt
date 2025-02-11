@@ -8,7 +8,7 @@
 .ll 72
 
 // Define CSS
-.de .tnbox { background-color:#E3E4FA; border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
+.de .tnbox { border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
 
 // Define macros
 
@@ -19,13 +19,6 @@
 // Paragraph formatting, indent paragraphs by 0.75 em.
 .pi
 .nr psi 0.75em
-
-// Insert cover image for HTML version
-.if h
-.de #img_ititle { width: 100%; max-width: 30em; }
-.il id=img_ititle fn=i_title.jpg w=100%
-.pb
-.if-
 
 .pn 1
 .bn 001.png
@@ -59,15 +52,13 @@ THE CALVERT SERIES
 
 .in 2
 .ti -2 begin
+.nf b
 <i>Belloc</i>: <sc>The Catholic Church and History</sc>
-
 <i>Chesterton</i>: <sc>The Catholic Church and Conversion</sc>
-
 <i>McNabb</i>: <sc>The Catholic Church and Philosophy</sc>
-
 <i>Ward</i>: <sc>The Catholic Church and the Appeal to Reason</sc>
-
 <i>Windle</i>: <sc>The Catholic Church and Its Reactions With Science</sc>
+.nf-
 .ti end
 .in
 
@@ -84,9 +75,13 @@ THE CALVERT SERIES
 .h1 
 <fs=135%>THE CATHOLIC CHURCH</fs>|<fs=135%>AND CONVERSION</fs>
 
+.sp 4
+
 .ce 2
 <fs=85%>BY</fs>
 G. K. CHESTERTON
+
+.sp 4
 
 .ce 3
 New York
@@ -104,24 +99,27 @@ THE MACMILLAN COMPANY
 
 .sp 4
 
+// offset each indent class with a specific number of spaces
+.sr t ~%%in=1\s+~  ~
+.sr t ~%%in=2\s+~    ~
+.sr t ~%%in~~
+
+// add spans to create indentation
+.de .indent1 { padding-left: 2em; }
+.de .indent2 { padding-left: 4em; }
+.sr h ~%%in=(.)\s+~<span class="indent\1">~
+.sr h ~%%in~</span>~
+
+.nf b
 Nihil Obstat
-.in 4
-<sc>Arthur J. Scanlan</sc>, S. T. D.
-.in
-.in 8
-Censor Librorum.
-.in
-
-
+%%in=1 Arthur J. Scanlan, S. T. D.%%in
+%%in=2 Censor Librorum.%%in
 Imprimatur
-.in 4
-<sc>Patrick Cardinal Hayes</sc>
-.in
-.in 8
-✠Archbishop, New York.
-.in
+%%in=1 Patrick Cardinal Hayes%%in
+%%in=2 ✠Archbishop, New York.%%in
 
 New York, September 16, 1926.
+.nf-
 
 .sp 4
 
@@ -148,14 +146,14 @@ THE FERRIS PRINTING COMPANY, NEW YORK.
 .fs
 
 .sp 4
-.pb
-
 .bn 005.png
 .pn +1
 
+.pb
+
 .sp 4
 
-.h2
+.h2 nobreak
 EDITOR’S NOTE
 
 
@@ -313,24 +311,24 @@ proofs upon which the rational basis of
 our religion reposes.—<i>The Editor.</i>
 
 .sp 4
-.pb
 
 .bn 010.png
 .pn +1
 .bn 011.png
 .pn +1
 
+.pb
 .sp 4
 
 
-.h2
+.h2 nobreak
 CONTENTS
 
 .sp 2
 
 .ta r:5 l:40 r:5 w=70%
 | CHAPTER  | PAGE
-
+||
 I.   | <sc>Introductory: A New Religion</sc> | #15#
 II.  | <sc>The Obvious Blunders</sc> | #27#
 III. | <sc>The Real Obstacles</sc> | #49#
@@ -341,12 +339,12 @@ VI.  | <sc>A Note On Present Prospects</sc> | #111#
 
 .sp 4
 
-.pb
-
 .bn 012.png
 .pn +1
 .bn 013.png
 .pn +1
+
+.pb
 
 .sp 4
 
@@ -356,12 +354,12 @@ VI.  | <sc>A Note On Present Prospects</sc> | #111#
 
 .sp 4
 
-.pb
-
 .bn 014.png
 .pn +1
 .bn 015.png
 .pn +1
+
+.pb
 
 .sp 4
 
@@ -371,7 +369,7 @@ VI.  | <sc>A Note On Present Prospects</sc> | #111#
 
 .sp 4
 
-.h2
+.h2 nobreak
 CHAPTER I||INTRODUCTORY: A NEW RELIGION
 
 .sp 2
@@ -496,7 +494,7 @@ to follow Mithras, another was a Neo-Pythagorean
 who had learned vegetarianism from the Hindoos,
 and so on. Though the Roman father, unlike the
 Victorian father, might have the pleasure of exercising
-the <i>patria potestas</i> and cutting off the heads
+the <i><lang=la>patria potestas</lang></i> and cutting off the heads
 of all the heretics, he could not cut off the stream
 of all the heresies. Only by this time most of the
 streams have run rather dry. It is now seldom
@@ -658,16 +656,17 @@ of a Children’s Crusade.
 <fs=120%>THE OBVIOUS BLUNDERS</fs>
 
 .sp 4
-.pb
 
 .bn 026.png
 .pn +1
 .bn 027.png
 .pn +1
 
+.pb
+
 .sp 4
 
-.h2
+.h2 nobreak
 CHAPTER II||THE OBVIOUS BLUNDERS
 
 
@@ -1230,7 +1229,7 @@ and at war; in that vast pagan peace which was
 the matrix of all these mysteries, which had forgotten
 the free cities and had not dreamed of the
 small nationalities; which knew only humanity,
-the <i>humanum genus</i>, and the name of Rome.
+the <i><lang=la>humanum genus</lang></i>, and the name of Rome.
 
 The Catholic Church loves nations as she loves
 men; because they are her children. But they certainly
@@ -1337,16 +1336,16 @@ our fathers before they had even named our fatherland.
 <fs=120%>THE REAL OBSTACLES</fs>
 
 .sp 4
-.pb
 
 .bn 048.png
 .pn +1
 .bn 049.png
 .pn +1
 
+.pb
 .sp 4
 
-.h2
+.h2 nobreak
 CHAPTER III||THE REAL OBSTACLES
 
 .sp 2
@@ -1879,7 +1878,7 @@ doors; and he is under vast domes as open as the
 Renaissance and as universal as the Republic of the
 world. He can say in a sense unknown to all
 modern men certain ancient and serene words:
-<i>Romanus civis sum</i>; I am not a slave.
+<i><lang=la>Romanus civis sum</lang></i>; I am not a slave.
 
 The point for the moment, however, is that
 .bn 065.png
@@ -2116,16 +2115,17 @@ proceed to describe it.
 <fs=120%>THE WORLD INSIDE OUT</fs>
 
 .sp 4
-.pb
 
 .bn 074.png
 .pn +1
 .bn 075.png
 .pn +1
 
+.pb
+
 .sp 4
 
-.h2
+.h2 nobreak
 CHAPTER IV||THE WORLD INSIDE OUT
 
 .sp 2
@@ -2181,7 +2181,7 @@ Church stands alone. It does not merely belong
 to a class of Christian churches. It does not
 merely belong to a class of human religions. Considered
 quite coldly and impartially, as by a man
-from the moon, it is much more <i>sui generis</i> than
+from the moon, it is much more <i><lang=la>sui generis</lang></i> than
 that. It is, if the critic chooses to think so, the
 ruin of an attempt at a Universal Religion which
 was bound to fail. But calling the wreckers to
@@ -2649,15 +2649,16 @@ comparatively small.
 
 .sp 4
 
-.pb
 .bn 092.png
 .pn +1
 .bn 093.png
 .pn +1
 
+.pb
+
 .sp 4
 
-.h2
+.h2 nobreak
 CHAPTER V||THE EXCEPTION PROVES THE RULE
 .sp 2
 
@@ -3206,8 +3207,6 @@ vision of liberty.
 <fs=120%>A NOTE ON PRESENT PROSPECTS</fs>
 
 .sp 4
-.pb
-
 .bn 110.png
 .pn +1
 .bn 111.png
@@ -3215,7 +3214,9 @@ vision of liberty.
 
 .sp 4
 
-.h2
+.pb
+
+.h2 nobreak
 CHAPTER VI||A NOTE ON PRESENT PROSPECTS
 
 .sp 2
@@ -3371,11 +3372,15 @@ will become a battle between bad Catholics and
 good Catholics, with the great dome over all.
 
 .pb
-
 .dv class=tnbox
+.ce
+.if h
+<b>Transcriber’s Notes</b>
+.if-
+.if t
+Transcriber’s Notes
+.if-
 .ul
-.it Transcriber’s Notes:
-.ul indent=1
 .it Missing or obscured punctuation was silently corrected.
 .it Typographical errors were silently corrected.
 .it Inconsistent spelling and hyphenation were made consistent only when a\
@@ -3383,6 +3388,5 @@ predominant form was found in this book.
 .if t
 .it Text in italics is enclosed by underscores (<i>italics</i>).
 .if-
-.ul-
 .ul-
 .dv-
