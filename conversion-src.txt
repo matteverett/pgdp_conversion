@@ -156,6 +156,7 @@ THE FERRIS PRINTING COMPANY, NEW YORK.
 .h2 nobreak
 EDITOR’S NOTE
 
+.sp 2
 
 It is with diffidence that anyone born into the
 Faith can approach the tremendous subject of
@@ -669,6 +670,7 @@ of a Children’s Crusade.
 .h2 nobreak
 CHAPTER II||THE OBVIOUS BLUNDERS
 
+.sp 2
 
 I have noted that Catholicism really is in the
 twentieth century what it was in the second century;
@@ -3215,6 +3217,8 @@ vision of liberty.
 .sp 4
 
 .pb
+
+.sp 4
 
 .h2 nobreak
 CHAPTER VI||A NOTE ON PRESENT PROSPECTS
