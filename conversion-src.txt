@@ -72,7 +72,7 @@ THE CALVERT SERIES
 
 
 
-.h1 
+.h1 nobreak
 <fs=135%>THE CATHOLIC CHURCH</fs>|<fs=135%>AND CONVERSION</fs>
 
 .sp 4
@@ -103,6 +103,7 @@ THE MACMILLAN COMPANY
 .sr t ~%%in=1\s+~  ~
 .sr t ~%%in=2\s+~    ~
 .sr t ~%%in~~
+.sr t ~●~•~
 
 // add spans to create indentation
 .de .indent1 { padding-left: 2em; }
@@ -328,7 +329,7 @@ CONTENTS
 .sp 2
 
 .ta r:5 l:40 r:5 w=70%
-| CHAPTER  | PAGE
+<th> | CHAPTER  | PAGE
 ||
 I.   | <sc>Introductory: A New Religion</sc> | #15#
 II.  | <sc>The Obvious Blunders</sc> | #27#
@@ -458,7 +459,7 @@ Calvinists. He has no fear that his children will
 become seventeenth-century Supralapsarians, however
 much he may dislike that doctrine. He is not
 even particularly troubled by the possibility of
-their adopting the extreme solfidian conceptions
+their adopting the extreme solifidian conceptions
 once common among some of the more extravagant
 Methodists. He is not likely to await with terror
 the telegram that will inform him that his son has
